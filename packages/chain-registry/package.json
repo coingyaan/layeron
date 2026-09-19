@@ -1,0 +1,1 @@
+{ "name": "@layeron/chain-registry", "version": "0.1.0", "private": true, "main": "src/registry.ts", "types": "src/registry.ts" }

@@ -1,0 +1,9 @@
+{
+  "name": "@layeron/indexer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "indexer": "tsx src/indexer.ts", "api": "tsx api/server.ts", "migrate": "psql $DATABASE_URL -f db/schema.sql" },
+  "dependencies": { "express": "^4.19.2", "pg": "^8.12.0", "viem": "^2.21.0", "dotenv": "^16.4.5" },
+  "devDependencies": { "tsx": "^4.19.0", "typescript": "^5.5.0", "@types/express": "^4.17.21", "@types/pg": "^8.11.0" }
+}

@@ -1,0 +1,16 @@
+{
+  "chain": "arc",
+  "network": "arcMainnet",
+  "chainId": "5042",
+  "usdc": "0x3600000000000000000000000000000000000000",
+  "layeronTimelock": "0x417c4de6f1b30E60ABEF76D4a39316a1140f0C69",
+  "layeronConfig": "0x04c55Ff16a7CDA8169B26a7B60a8D7744042fef5",
+  "layeronGM": "0x83694B85b90eE2B0CE2B2Ce42FFEF9B08f7de78A",
+  "layeronReputation": "0x9431FA2D4a75fD985fABd131234Ab5a433429848",
+  "explorerUrl": "https://arc.etherscan.io",
+  "admin": "0x85bB069B3a6aD2af22A55d866ac0a5Ea2EbC9dBD",
+  "upgraderTimelock": "0x417c4de6f1b30E60ABEF76D4a39316a1140f0C69",
+  "timelockMinDelaySeconds": 172800,
+  "defaultAdminDelaySeconds": 86400,
+  "deployedAt": "2026-09-19T07:08:24.544Z"
+}

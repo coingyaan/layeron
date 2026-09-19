@@ -1,0 +1,17 @@
+{
+  "network": "arc-mainnet",
+  "expectedChainId": 5042,
+  "_comment_admin": "v1: leave null to grant all roles to the DEPLOYING wallet (your main wallet). No multisig required. Set an address to override. Move to a multisig later via scripts/transfer-roles.ts \u2014 no redeploy needed.",
+  "admin": null,
+  "usdc": "0x3600000000000000000000000000000000000000",
+  "gmFee": "10000",
+  "devWallet": "0xCf33E654BF6189546352eC1E871f8652dd670B47",
+  "rewardWallet": "0xe888dC2b798F246380750fddC47f91ceE9822F3e",
+  "_comment_allocation": "devBps + rewardBps must equal 10000. Editable later from the admin dashboard.",
+  "devBps": 3000,
+  "rewardBps": 7000,
+  "xpPerGm": "10",
+  "explorerUrl": "https://arc.etherscan.io",
+  "timelockMinDelaySeconds": 172800,
+  "defaultAdminDelaySeconds": 86400
+}

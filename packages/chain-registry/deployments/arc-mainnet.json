@@ -1,0 +1,9 @@
+{
+  "chain": "arc",
+  "chainId": "REQUIRED_FROM_DEPLOY",
+  "usdc": "REQUIRED_FROM_DEPLOY",
+  "layeronConfig": "FILLED_ON_DEPLOY",
+  "layeronGM": "FILLED_ON_DEPLOY",
+  "layeronReputation": "FILLED_ON_DEPLOY",
+  "explorerUrl": "REQUIRED_FROM_DEPLOY"
+}
