@@ -194,7 +194,7 @@ function Leaderboard({ me }: { me?: string }) {
         </div>
       </div>
       <div className="lb-list">
-        {rows.length === 0 && <div style={{ padding: 40, color: "var(--ink-3)" }}>no activity yet.</div>}
+        {rows.length === 0 && <div style={{ padding: 40, color: "var(--ink-3)" }}>leaderboard launching soon</div>}
         {rows.map((r: any, i: number) => (
           <div key={r.address} className={`lb-item ${i<3?"top3":""} ${me && r.address?.toLowerCase()===me.toLowerCase()?"you":""}`}>
             <div className="rk">{String(i+1).padStart(2,"0")}</div>
@@ -265,3 +265,4 @@ function WalletModal({ s, onClose }: any) {
     </div>
   );
 }
+
